@@ -30,8 +30,27 @@ main {
 }
 
 /* header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+header nav {
+  width: 70%;
+  font-size: 24px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 header h1 {
   margin-left: 2%;
+  font-size: 40px;
 }
 
 header a {
@@ -39,6 +58,9 @@ header a {
   color: #ffffff;
 }
 
+li {
+  list-style: none;
+}
 /* footer styles */
 
 footer {
