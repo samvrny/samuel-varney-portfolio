@@ -93,6 +93,12 @@ li {
   padding: 3.5%;
 }
 
+/* portfolio section styles */
+.portfolio-picture {
+  height: 250px;
+  width: auto;
+}
+
 /* footer styles */
 
 footer {
