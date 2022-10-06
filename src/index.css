@@ -12,10 +12,37 @@ code {
     monospace;
 }
 
-/* Start custom CSS */
+/* main styles */
+.App {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+  flex: 1;
+}
+
+/* header styles */
+header h1 {
+  margin-left: 2%;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* footer styles */
+
+footer {
+  height: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+footer p {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: antiquewhite;
 }
