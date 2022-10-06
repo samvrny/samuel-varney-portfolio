@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <main>
-        <About></About>
+        {/* <About></About> */}
       </main>
       <Footer></Footer>
     </div>

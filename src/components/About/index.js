@@ -1,6 +1,7 @@
 function About() {
     return(
         <section className='about'>
+            <h3>About Me</h3>
             <div className='about-holder'>
                 <img className='me' src={require('../../assets/samvarney.jpg')}></img>
                 <p className='about-me'>Hello world! My name is Samuel Varney. I am a full stack web developer
