@@ -81,11 +81,12 @@ li {
   background-color: #494949;
   color: #ffffff;
   font-size: 18px;
+  height: 450px;
 }
 
 .me {
-  height: 425px;
-  width: auto;
+  height: 100%;
+  max-width: auto;
 }
 
 .about-me {
