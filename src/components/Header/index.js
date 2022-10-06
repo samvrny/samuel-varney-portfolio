@@ -1,3 +1,5 @@
+import Navigation from "../Navigation";
+
 function Header() {
     return(
         <header className='flex-row'>
@@ -6,6 +8,7 @@ function Header() {
                     Samuel Varney
                 </a>
             </h1>
+            <Navigation></Navigation>
         </header>
     )
 }
