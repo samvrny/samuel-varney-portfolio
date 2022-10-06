@@ -23,6 +23,7 @@ code {
 main {
   flex: 1;
   background-color: #7c7a7a;
+  display: flex;
 }
 
 .active {
@@ -61,6 +62,36 @@ header a {
 li {
   list-style: none;
 }
+
+/* about section styles */
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #ff5d73;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #494949;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.me {
+  height: 425px;
+  width: auto;
+}
+
+.about-me {
+  padding: 3.5%;
+}
+
 /* footer styles */
 
 footer {
