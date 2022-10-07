@@ -99,6 +99,7 @@ li {
   width: 500px;
   margin: 18px 25px;
   border: 4px solid #494949;
+  border-radius: 5px;
 }
 
 .portfolio-picture:hover {
@@ -110,8 +111,70 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
+/* modal styles */
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modal-container {
+	background: #494949;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-title {
+	font-size: 35px;
+	margin: auto;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.modal-picture {
+  height: auto;
+  width: 83%;
+  border-radius: 5px;
+  border: 4px solid #ff5d73;
+  margin: auto;
+}
+
+.modal-description {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.modal-button {
+  all: unset;
+  cursor: pointer;
+  background-color: #ff5d73;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  width: 10%;
+  text-align: center;
+  margin-left: auto;
+  font-weight: 700;
+}
+
+.modal-button:hover {
+  outline: #ff5d73 3px auto;
+  color: #ffffff;
+}
 /* footer styles */
 
 footer {
