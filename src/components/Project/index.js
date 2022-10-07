@@ -29,7 +29,7 @@ function Project() {
     ])
 
     return(
-        <section>
+        <section className='picture-box'>
             {photos.map((image, i) => (
                 <img
                     src={image.picture}
