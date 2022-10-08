@@ -47,16 +47,19 @@ function Project() {
         }
     ])
 
+    //sets whether the modal is open or not when a project is clicked on
     const [currentProject, setCurrentProject] = useState();
     const showModal = (image, i) => {
         setCurrentProject({ ...image, index: i });
         setIsModalOpen(!isModalOpen)
     }
 
+    //sets the original state of the modal to false (it only renders when it is true)
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <div>
+            {/* checks if isModalOpen is true, and if it is, renders the modal */}
             {isModalOpen && <Modal currentProject={currentProject} onClose={showModal}/>}
             <section className='picture-box'>
                 {projectPhotos.map((image, i) => (

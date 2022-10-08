@@ -1,6 +1,7 @@
 import { useState } from "react"
 
-function Navigation() {
+function Navigation(props) {
+    
     const [navItems] = useState([
         {
             name: 'About'
@@ -16,6 +17,11 @@ function Navigation() {
         }
     ]);
 
+    const {
+        otherSelected,
+        setOtherSelected,
+    } = props
+
     const [currentNavItem, setCurrentNavItem] = useState(navItems[0])
 
     return(
@@ -25,6 +31,7 @@ function Navigation() {
                     <li className={`${currentNavItem.name === category.name && 'active'}`} key={category.name}>
                         <span onClick={() => {
                             setCurrentNavItem(category)
+                            setOtherSelected(category.name)
                         }}>
                             {category.name}
                         </span>

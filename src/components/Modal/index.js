@@ -1,5 +1,6 @@
 function Modal({ currentProject, onClose }) {
 
+    //deconstruct the props
     const { name, description, picture, github, deployed } = currentProject
 
     return (
