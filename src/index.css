@@ -30,6 +30,22 @@ main {
   color: #ff5d73;
 }
 
+button {
+  all: unset;
+  cursor: pointer;
+  background-color: #ff5d73;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  width: 10%;
+  text-align: center;
+  font-weight: 700;
+}
+
+button:hover {
+  outline: #ff5d73 3px auto;
+  color: #ffffff;
+}
+
 /* header styles */
 header {
   display: flex;
@@ -166,20 +182,7 @@ li {
 }
 
 .modal-button {
-  all: unset;
-  cursor: pointer;
-  background-color: #ff5d73;
-  padding: 5px 15px 5px 15px;
-  border-radius: 5px;
-  width: 10%;
-  text-align: center;
   margin-left: auto;
-  font-weight: 700;
-}
-
-.modal-button:hover {
-  outline: #ff5d73 3px auto;
-  color: #ffffff;
 }
 
 .github {
@@ -197,6 +200,62 @@ li {
 .github a:hover {
   color: #ff5d73;
 }
+
+/* contact form styles */
+
+.contact-holder {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px;
+  background: #494949;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	width: 75%;
+  border: 4px solid #ff5d73;
+}
+
+.contact-holder h1 {
+  font-weight: 750;
+  font-size: 40px;
+  color: #ffffff;
+  margin-right: 75%;
+}
+
+.contact-holder form {
+  width: 75%;
+  height: 60%;
+  display: flex;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input, .message {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+textarea {
+  height: 275px;
+  border: 2px solid #ff5d73;
+  overflow: auto;
+  resize: none;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+label {
+  color: #ffffff;
+}
+
 /* footer styles */
 
 footer {
