@@ -231,17 +231,6 @@ li {
   display: flex;
 }
 
-.input {
-  display: flex;
-  justify-content: space-around;
-}
-
-.input, .message {
-  width: 90%;
-  margin: auto;
-  padding: 15px;
-}
-
 textarea {
   height: 275px;
   border: 2px solid #ff5d73;
