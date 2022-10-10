@@ -245,6 +245,54 @@ label {
   color: #ffffff;
 }
 
+/* resume styles */
+
+.resume-holder {
+  background: #494949; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto 15px auto;
+  border: 4px solid #ff5d73;
+  border-radius: 5px;
+  padding: 15px 10% 25px 10%;
+  color: #ffffff;
+}
+
+.resume-head {
+  font-size: 40px;
+}
+
+.resume-lists h3 {
+  font-size: 30px;
+}
+
+.resume-lists ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 25px 0px;
+  font-weight: 600;
+}
+
+.resume-lists h4 {
+  font-size: 23px;
+  color: #ff5d73;
+}
+
+.res-link {
+  text-decoration: none;
+  color: #ff5d73;
+}
+
+.res-link:hover {
+  color: #7c7a7a;
+}
+
+.weight {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 /* footer styles */
 
 footer {
