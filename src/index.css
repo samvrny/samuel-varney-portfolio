@@ -36,7 +36,6 @@ button {
   background-color: #ff5d73;
   padding: 5px 15px 5px 15px;
   border-radius: 5px;
-  width: 10%;
   text-align: center;
   font-weight: 700;
 }
@@ -139,31 +138,31 @@ li {
 /* modal styles */
 
 .modal-backdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: rgba(0, 0, 0, .65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .modal-container {
-	background: #494949;
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 75%;
+  background: #494949;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .modal-title {
-	font-size: 35px;
-	margin: auto;
+  font-size: 35px;
+  margin: auto;
   color: #ffffff;
   padding: 15px;
 }
@@ -183,11 +182,12 @@ li {
 
 .modal-button {
   margin-left: auto;
+  width: 10%;
 }
 
 .github {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
 
 .github a {
@@ -204,51 +204,63 @@ li {
 /* contact form styles */
 
 .contact-holder {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 15px;
   background: #494949;
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto 15px auto;
   border: 4px solid #ff5d73;
+  border-radius: 5px;
+  padding: 15px 10% 25px 10%;
+  color: #ffffff;
 }
 
 .contact-holder h1 {
   font-weight: 750;
   font-size: 40px;
-  color: #ffffff;
-  margin-right: 75%;
 }
 
-.contact-holder form {
-  width: 75%;
-  height: 60%;
+.contact-btn {
+  color: #0c0c0c;
+}
+
+.contact-form {
+  width: 350px;
+}
+
+.form-div {
   display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0
 }
 
-textarea {
-  height: 275px;
-  border: 2px solid #ff5d73;
-  overflow: auto;
-  resize: none;
+.form-div label {
+  margin-bottom: 8px;
+}
+
+.form-div input,
+.form-div textarea {
+  padding: 7px;
   border-radius: 5px;
-  outline: none;
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  border: none;
+  font-size: 17px;
 }
 
-label {
-  color: #ffffff;
+.form-div textarea {
+  margin-bottom: 18px;
+  border: none;
+  overflow: auto;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* resume styles */
 
 .resume-holder {
-  background: #494949; 
+  background: #494949;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -307,7 +319,9 @@ footer p {
   color: #ffffff;
 }
 
-.github-icon, .linkedin-icon, .stack-icon {
+.github-icon,
+.linkedin-icon,
+.stack-icon {
   font-size: 55px;
   color: #ffffff;
   cursor: pointer;
@@ -316,7 +330,7 @@ footer p {
 }
 
 .github-icon:hover {
-  color: #ff5d73;
+  color: #0c0c0c;
 }
 
 .linkedin-icon:hover {
