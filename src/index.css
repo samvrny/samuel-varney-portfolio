@@ -180,6 +180,14 @@ li {
   font-size: 18px;
 }
 
+.modal-btn {
+  margin-top: 8px;
+}
+
+.modal-a {
+  color: #0c0c0c;
+}
+
 .modal-button {
   margin-left: auto;
   width: 10%;
@@ -192,13 +200,13 @@ li {
 
 .github a {
   text-decoration: none;
-  color: #ffffff;
+  color: #0c0c0c;
   padding: 12px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .github a:hover {
-  color: #ff5d73;
+  color: #ffffff;
 }
 
 /* contact form styles */

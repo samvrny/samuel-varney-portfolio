@@ -10,8 +10,8 @@ function Modal({ currentProject, onClose }) {
                     <h3 className="modal-title">{name}</h3>
                     <img className='modal-picture' src={picture} alt={name}></img>
                     <div className='github'>
-                        <a href={github} target='_blank' >GitHub Repository</a>
-                        <a href={deployed} target='_blank' >Deployed Application</a>
+                        <button className='modal-btn'><a href={github} target='_blank' >GitHub Repository</a></button>
+                        <button className='modal-btn'><a href={deployed} target='_blank' >Deployed Application</a></button>
                     </div>
                     <p className='modal-description'>{description}</p>
                     <button className='modal-button' type="button" onClick={onClose}>Close</button>

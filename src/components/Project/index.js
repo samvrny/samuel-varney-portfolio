@@ -42,8 +42,8 @@ function Project() {
             picture: require('../../assets/projects/runbuddy.png'),
             name: 'Run Buddy',
             description: 'Description is up in here',
-            github:'https://www.google.com/',
-            deployed:'https://www.google.com/'
+            github:'https://github.com/samvrny/run-buddy',
+            deployed:'https://samvrny.github.io/run-buddy/'
         }
     ])
 
