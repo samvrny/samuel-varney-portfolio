@@ -6,42 +6,42 @@ function Project() {
         {
             picture: require('../../assets/projects/blog.png'),
             name: 'Tech Blog App',
-            description: 'Description is up in here',
+            description: 'A simple blog app for sharing ideas about web development technologies',
             github:'https://github.com/samvrny/theTechBlog',
             deployed:'https://fast-island-88973.herokuapp.com/'
         },
         {
             picture: require('../../assets/projects/jsquiz.png'),
-            name: 'History Quiz',
-            description: 'Description is up in here',
+            name: 'JavaScript Quiz',
+            description: 'A quiz made to test the players JavaScript knowledge',
             github:'https://github.com/samvrny/javascript-basics-test',
             deployed:'https://samvrny.github.io/javascript-basics-test/'
         },
         {
             picture: require('../../assets/projects/homebase.png'),
             name: 'Homebase App',
-            description: 'Description is up in here',
+            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks',
             github:'https://github.com/AlexCourtney18/homebase',
             deployed:'https://enigmatic-bastion-69025.herokuapp.com/'
         },
         {
             picture: require('../../assets/projects/notetaker.png'),
             name: 'Notetaker App',
-            description: 'Description is up in here',
+            description: 'A simple express app used for recording notes',
             github:'https://github.com/samvrny/notetakerapp',
             deployed:'https://protected-mesa-86289.herokuapp.com/'
         },
         {
             picture: require('../../assets/projects/weatherapp.png'),
             name: 'Local Weather',
-            description: 'Description is up in here',
+            description: 'This is a weather application designed to show you the current weather conditions in the city of your choice',
             github:'https://github.com/samvrny/simple-weather-app',
             deployed:'https://samvrny.github.io/simple-weather-app/'
         },
         {
             picture: require('../../assets/projects/runbuddy.png'),
             name: 'Run Buddy',
-            description: 'Description is up in here',
+            description: 'This application was designed for a theoretical company named Run Buddy, so that new users can get to know them and sign up for their services',
             github:'https://github.com/samvrny/run-buddy',
             deployed:'https://samvrny.github.io/run-buddy/'
         }
