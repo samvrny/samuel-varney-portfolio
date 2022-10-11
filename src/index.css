@@ -89,6 +89,7 @@ li {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .about-holder {
@@ -96,8 +97,7 @@ li {
   justify-content: space-between;
   align-items: center;
   border: 5px solid #ff5d73;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 10px 5% 5% 5%;
   background-color: #494949;
   color: #ffffff;
   font-size: 18px;
@@ -138,7 +138,7 @@ li {
 
 /* modal styles */
 
-.modalBackdrop {
+.modal-backdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;
 	left: 0;
@@ -296,7 +296,7 @@ label {
 /* footer styles */
 
 footer {
-  height: 40px;
+  height: 70px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -305,4 +305,24 @@ footer {
 
 footer p {
   color: #ffffff;
+}
+
+.github-icon, .linkedin-icon, .stack-icon {
+  font-size: 55px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .1s;
+  margin: 0 20px 0 20px;
+}
+
+.github-icon:hover {
+  color: #ff5d73;
+}
+
+.linkedin-icon:hover {
+  color: #00a1e4;
+}
+
+.stack-icon:hover {
+  color: #f5b700;
 }

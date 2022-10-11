@@ -5,7 +5,7 @@ function Modal({ currentProject, onClose }) {
 
     return (
         <div className='modal-holder'>
-            <div className="modalBackdrop">
+            <div className="modal-backdrop">
                 <div className="modal-container">
                     <h3 className="modal-title">{name}</h3>
                     <img className='modal-picture' src={picture} alt={name}></img>
