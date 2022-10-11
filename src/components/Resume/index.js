@@ -1,10 +1,12 @@
 function Resume() {
+    const resumepdf = require('../../assets/resume/Samuel Varney.pdf')
+
     return (
         <div className='resume-holder'>
             <section>
                 <h2 className='resume-head'>Resume</h2>
                 <div>
-                    <p className='weight'>View and download my <span><a className='res-link'href='https://docs.google.com/document/d/1IEo4gO66vR9CP9JtUrzEm7opgrafXmBtS-BzKqXtiIM/edit?usp=sharing' target='_blank'>Resume</a></span></p>
+                    <p className='weight'>View and download my <span><a className='res-link'href={resumepdf} target='_blank'>Resume</a></span></p>
                 </div>
                 <div className='resume-lists'>
                     <h3>My proficiencies:</h3>
