@@ -4,7 +4,7 @@
 This application is a portfolio written to showcase my skill as a developer. This portfolio is a react application because I really enjoy working with react!
 
 ## Application
-You can visit the deployed portfolio application here: []()
+You can visit the deployed portfolio application here: [](https://samvrny.github.io/samuel-varney-portfolio/)
 
 Otherwise, here are some screenshots of the application:
 

@@ -102,6 +102,8 @@ li {
   font-size: 18px;
   height: 450px;
   border-radius: 5px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .me {
