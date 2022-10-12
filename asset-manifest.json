@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/samuel-varney-portfolio/static/css/main.9f48f12a.css",
+    "main.js": "/samuel-varney-portfolio/static/js/main.4f69ed8d.js",
+    "static/js/787.971da97d.chunk.js": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js",
+    "static/media/samvarney.jpg": "/samuel-varney-portfolio/static/media/samvarney.f8fe87c93a58932b70f0.jpg",
+    "static/media/runbuddy.png": "/samuel-varney-portfolio/static/media/runbuddy.a24028d1cb5afc1af23a.png",
+    "static/media/blog.png": "/samuel-varney-portfolio/static/media/blog.521b29f40b648b61db93.png",
+    "static/media/weatherapp.png": "/samuel-varney-portfolio/static/media/weatherapp.c5f4f8d93337b1a8f768.png",
+    "static/media/Samuel Varney.pdf": "/samuel-varney-portfolio/static/media/Samuel Varney.9f63a8ff399a54df8f90.pdf",
+    "static/media/homebase.png": "/samuel-varney-portfolio/static/media/homebase.5995fae7ab3ad2a6f421.png",
+    "static/media/jsquiz.png": "/samuel-varney-portfolio/static/media/jsquiz.ba8dfbffac335a97e366.png",
+    "static/media/notetaker.png": "/samuel-varney-portfolio/static/media/notetaker.9d5ab4794a2992926b4a.png",
+    "index.html": "/samuel-varney-portfolio/index.html",
+    "main.9f48f12a.css.map": "/samuel-varney-portfolio/static/css/main.9f48f12a.css.map",
+    "main.4f69ed8d.js.map": "/samuel-varney-portfolio/static/js/main.4f69ed8d.js.map",
+    "787.971da97d.chunk.js.map": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f48f12a.css",
+    "static/js/main.4f69ed8d.js"
+  ]
+}
