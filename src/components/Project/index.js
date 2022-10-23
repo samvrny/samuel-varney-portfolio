@@ -64,7 +64,7 @@ function Project() {
             <section className='picture-box'>
                 {projectPhotos.map((image, i) => (
                     <div>
-                        <h3>{image.name}</h3>
+                        <h3 className='titles'>{image.name}</h3>
                         <img
                             src={image.picture}
                             alt={image.name}
