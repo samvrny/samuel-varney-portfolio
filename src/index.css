@@ -59,7 +59,7 @@ header {
 }
 
 header nav {
-  width: 70%;
+  width: 62%;
   font-size: 24px;
 }
 
@@ -74,17 +74,24 @@ header nav ul li {
 }
 
 header h1 {
-  margin-left: 2%;
-  font-size: 40px;
+  font-size: 50px;
+  margin: 0;
 }
 
-header a {
-  text-decoration: none;
+header p {
+  margin-top: 0;
   color: #ffffff;
+  font-size: 20px;
 }
 
 li {
   list-style: none;
+}
+
+.header-creds {
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 7px;
 }
 
 /* about section styles */
