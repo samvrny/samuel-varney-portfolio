@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-/* main styles */
+/* universal styles */
 .App {
   background-color: #494949;
   display: flex;
@@ -43,6 +43,11 @@ button {
 button:hover {
   outline: #ff5d73 3px auto;
   color: #ffffff;
+}
+
+.weight {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* header styles */
@@ -114,6 +119,7 @@ li {
 }
 
 /* portfolio section styles */
+
 .portfolio-picture {
   height: 250px;
   width: 500px;
@@ -224,41 +230,32 @@ li {
   font-size: 40px;
 }
 
-.contact-btn {
-  color: #0c0c0c;
-}
-
-.contact-form {
-  width: 350px;
-}
-
 .form-div {
   display: flex;
   flex-direction: column;
   margin: 10px 0 10px 0
 }
 
-.form-div label {
-  margin-bottom: 8px;
+
+.github-icon,
+.linkedin-icon {
+  font-size: 70px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .1s;
+  margin: 0 20px 0 20px;
 }
 
-.form-div input,
-.form-div textarea {
-  padding: 7px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
+.github-icon:hover {
+  color: #0c0c0c;
 }
 
-.form-div textarea {
-  margin-bottom: 18px;
-  border: none;
-  overflow: auto;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  resize: none;
-  font-family: 'Roboto', sans-serif;
+.linkedin-icon:hover {
+  color: #00a1e4;
+}
+
+.email-div {
+  padding-bottom: 15px;
 }
 
 /* resume styles */
@@ -295,18 +292,13 @@ li {
   color: #ff5d73;
 }
 
-.res-link {
+.res-link, .email {
   text-decoration: none;
   color: #ff5d73;
 }
 
-.res-link:hover {
+.res-link:hover, .email:hover {
   color: #7c7a7a;
-}
-
-.weight {
-  font-weight: 600;
-  font-size: 18px;
 }
 
 /* footer styles */
@@ -317,30 +309,4 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-footer p {
-  color: #ffffff;
-}
-
-.github-icon,
-.linkedin-icon,
-.stack-icon {
-  font-size: 55px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: .1s;
-  margin: 0 20px 0 20px;
-}
-
-.github-icon:hover {
-  color: #0c0c0c;
-}
-
-.linkedin-icon:hover {
-  color: #00a1e4;
-}
-
-.stack-icon:hover {
-  color: #f5b700;
 }
