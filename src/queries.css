@@ -30,6 +30,10 @@
 }
 
 @media screen and (max-width: 575px) {
+    .me {
+        height: 275px;
+    }
+
     header h1 {
         padding: 10px;
     }
