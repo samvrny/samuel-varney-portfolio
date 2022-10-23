@@ -1,0 +1,56 @@
+@media screen and (max-width: 1224px) {
+
+    /* header styles */
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        width: 75%;
+    }
+
+    /* about section styles */
+    .about-holder {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .me {
+        height: 350px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .github, .modal-button {
+        flex-direction: column;
+        width: 83%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header h1 {
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin: 0 10px 0 10px;
+    }
+
+    .portfolio-picture {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio-picture {
+        height: 150px;
+    }
+}
