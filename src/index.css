@@ -99,7 +99,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-top: 30px;
 }
 
@@ -125,6 +125,7 @@ li {
   background-color: #494949;
   margin: 7%;
   border-radius: 5px;
+  align-items: center;
 }
 
 .about-title {
