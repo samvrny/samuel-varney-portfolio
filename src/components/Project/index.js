@@ -13,18 +13,18 @@ function Project() {
         {
             picture: require('../../assets/projects/jsquiz.png'),
             name: 'JavaScript Quiz',
-            description: 'A quiz made to test the players JavaScript knowledge',
+            description: 'A quiz made to test the players basic JavaScript knowledge',
             github:'https://github.com/samvrny/javascript-basics-test',
             deployed:'https://samvrny.github.io/javascript-basics-test/'
         },
-        {
+        {   //be replaced by the new group project
             picture: require('../../assets/projects/homebase.png'),
             name: 'Homebase App',
             description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks',
             github:'https://github.com/AlexCourtney18/homebase',
             deployed:'https://enigmatic-bastion-69025.herokuapp.com/'
         },
-        {
+        {   //to be replaced by the password generator
             picture: require('../../assets/projects/notetaker.png'),
             name: 'Notetaker App',
             description: 'A simple express app used for recording notes',
@@ -38,7 +38,7 @@ function Project() {
             github:'https://github.com/samvrny/simple-weather-app',
             deployed:'https://samvrny.github.io/simple-weather-app/'
         },
-        {
+        {   
             picture: require('../../assets/projects/runbuddy.png'),
             name: 'Run Buddy',
             description: 'This application was designed for a theoretical company named Run Buddy, so that new users can get to know them and sign up for their services',
