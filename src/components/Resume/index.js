@@ -1,5 +1,5 @@
 function Resume() {
-    const resumepdf = require('../../assets/resume/Samuel Varney.pdf')
+    const resumepdf = require('../../assets/resume/Samuel Varney (1).pdf')
 
     return (
         <div className='resume-holder'>

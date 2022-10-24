@@ -1,0 +1,66 @@
+@media screen and (max-width: 1224px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        width: 75%;
+    }
+
+    .about-holder {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .me {
+        height: 350px;
+        width: auto;
+    }
+
+    .modal-picture {
+        height: auto;
+        width: 83%;
+    }
+
+    .modal-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .github, .modal-button {
+        flex-direction: column;
+        width: 83%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .me {
+        height: 275px;
+    }
+
+    header h1 {
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin: 0 10px 0 10px;
+    }
+
+    .portfolio-picture {
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio-picture {
+        height: 150px;
+    }
+}

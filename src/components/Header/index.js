@@ -1,24 +1,25 @@
 import Navigation from "../Navigation";
 
 function Header(props) {
-    
+
     //deconstructing the properties (props) sent from App.js to the header
-    const{
+    const {
         setOtherSelected,
         otherSelected,
     } = props
 
     return (
-        <header className='flex-row'>
-            <h1>
-                <a href='/'>
+        <header>
+            <div className='header-creds'>
+                <h1>
                     Samuel Varney
-                </a>
-            </h1>
+                </h1>
+                <p>Full Stack Web Developer</p>
+            </div>
             <Navigation
                 // sending the deconstructed props to the navigation bar
-                setOtherSelected={ setOtherSelected }
-                otherSelected={ otherSelected }
+                setOtherSelected={setOtherSelected}
+                otherSelected={otherSelected}
             ></Navigation>
         </header>
     )
