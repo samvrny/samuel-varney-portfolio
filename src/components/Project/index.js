@@ -4,8 +4,8 @@ import Modal from '../Modal';
 function Project() {
     const [projectPhotos] = useState([
         {
-            picture: require('../../assets/projects/blog.png'),
-            name: 'Tech Blog App',
+            picture: require('../../assets/projects/Penny1.png'),
+            name: 'Penny For Your Thoughts',
             description: 'A simple blog app for sharing ideas about web development technologies',
             github:'https://github.com/samvrny/theTechBlog',
             deployed:'https://fast-island-88973.herokuapp.com/'
