@@ -8,11 +8,11 @@ You can visit the deployed portfolio application here: []()
 
 Otherwise, here are some screenshots of the application:
 
-![](./src/assets/portss1.png)
+![](./src/assets/port1.png)
 
-![](./src/assets/portss2.png)
+![](./src/assets/port2.png)
 
-![](./src/assets/portss3.png)
+![](./src/assets/port3.png)
 
 ## Technologies Used
 * React

@@ -6,7 +6,7 @@ function Project() {
         {
             picture: require('../../assets/projects/Penny1.png'),
             name: 'Penny For Your Thoughts',
-            description: 'A simple blog app for sharing ideas about web development technologies',
+            description: 'A simple blog application that allows users to share thoughts and comment on other users thoughts. Built using Javascript, CSS, Bootstrap, Handlebars, Express, Node, Bcrypt, MySQL and Sequelize.',
             github:'https://github.com/samvrny/theTechBlog',
             deployed:'https://fast-island-88973.herokuapp.com/'
         },
