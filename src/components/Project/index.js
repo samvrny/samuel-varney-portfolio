@@ -10,40 +10,40 @@ function Project() {
             github:'https://github.com/samvrny/theTechBlog',
             deployed:'https://fast-island-88973.herokuapp.com/'
         },
-        {
-            picture: require('../../assets/projects/jsquiz.png'),
-            name: 'JavaScript Quiz',
-            description: 'A quiz made to test the players basic JavaScript knowledge',
-            github:'https://github.com/samvrny/javascript-basics-test',
-            deployed:'https://samvrny.github.io/javascript-basics-test/'
-        },
         {   //be replaced by the new group project
             picture: require('../../assets/projects/homebase.png'),
             name: 'Homebase App',
-            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks',
+            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks. This application was built using Javascript, MySQL, Sequelize, Node, Express, Bootstrap, Handlebars, and CSS.',
             github:'https://github.com/AlexCourtney18/homebase',
             deployed:'https://enigmatic-bastion-69025.herokuapp.com/'
         },
         {   //to be replaced by the password generator
-            picture: require('../../assets/projects/notetaker.png'),
-            name: 'Notetaker App',
-            description: 'A simple express app used for recording notes',
-            github:'https://github.com/samvrny/notetakerapp',
-            deployed:'https://protected-mesa-86289.herokuapp.com/'
+            picture: require('../../assets/projects/generator1.png'),
+            name: 'Password Generator',
+            description: 'A simple password generator app. This application was built using Javascript, HTML, and CSS.',
+            github:'https://github.com/samvrny/simple-password-generator',
+            deployed:'https://samvrny.github.io/simple-password-generator/'
         },
         {
             picture: require('../../assets/projects/weatherapp.png'),
             name: 'Local Weather',
-            description: 'This is a weather application designed to show you the current weather conditions in the city of your choice',
+            description: 'This is a weather application designed to show you the current weather conditions in the city of your choice. This project was built with Javascript, HTML, and CSS.',
             github:'https://github.com/samvrny/simple-weather-app',
             deployed:'https://samvrny.github.io/simple-weather-app/'
         },
         {   
             picture: require('../../assets/projects/runbuddy.png'),
             name: 'Run Buddy',
-            description: 'This application was designed for a theoretical company named Run Buddy, so that new users can get to know them and sign up for their services',
+            description: 'This application was designed for a theoretical company named Run Buddy, so that new users can get to know them and sign up for their services. This application was built using HTML and CSS.',
             github:'https://github.com/samvrny/run-buddy',
             deployed:'https://samvrny.github.io/run-buddy/'
+        },
+        {
+            picture: require('../../assets/projects/notetaker.png'),
+            name: 'Express Notetaker',
+            description: 'A simple app that lets the user take notes. This project was built with Javascript, HTML, CSS, Node, and Express.',
+            github:'https://github.com/samvrny/notetakerapp',
+            deployed:'https://protected-mesa-86289.herokuapp.com/'
         }
     ])
 
