@@ -14,7 +14,7 @@ function About() {
                 I am known as a hard worker with a strong work ethic, and I enjoy picking up new skills and applying to develop and debug web 
                 applications. With each project I hope to not only learn something new but design apps 
                 that are user friendly and have an impactful user experience. I am very excited to leverage skills as part of a quality-driven 
-                team to build better experiences on the web!
+                team to build better experiences on the web! 
                 </p>
             </div>
         </section>
