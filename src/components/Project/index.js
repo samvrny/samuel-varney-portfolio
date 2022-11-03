@@ -13,7 +13,7 @@ function Project() {
         { 
             picture: require('../../assets/projects/homebase.png'),
             name: 'Homebase App',
-            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks. My role in this project was as the back end-developer and assistance with front-end Javascript. This application was built using Javascript, MySQL, Sequelize, Node, Express, Bootstrap, Handlebars, and CSS.',
+            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks. My role in this project was as the back-end developer and assistance with front-end Javascript. This application was built using Javascript, MySQL, Sequelize, Node, Express, Bootstrap, Handlebars, and CSS.',
             github:'https://github.com/AlexCourtney18/homebase',
             deployed:'https://enigmatic-bastion-69025.herokuapp.com/'
         },
@@ -39,11 +39,11 @@ function Project() {
             deployed:'https://samvrny.github.io/run-buddy/'
         },
         {
-            picture: require('../../assets/projects/notetaker.png'),
-            name: 'Express Notetaker',
-            description: 'A simple app that lets the user take notes. My role in developing this application is as its sole author, and it was built with Javascript, HTML, CSS, Node, and Express.',
-            github:'https://github.com/samvrny/notetakerapp',
-            deployed:'https://protected-mesa-86289.herokuapp.com/'
+            picture: require('../../assets/projects/stylebuddy.png'),
+            name: 'Style Buddy',
+            description: 'This application was built to help someone building a project find different styles for it. The project features the ability to randomly search for different colors, fonts, and stock images one might want to use for a project. My role in developing this project was as the front-end javascript developer and back-end consultant. The application was build using Javascript, CSS, HTML, React, Bcrypt, jwt, Apollo/GraphQL, MongoDb and Mongoose',
+            github:'https://github.com/samvrny/style-buddy',
+            deployed:'https://style-buddy22.herokuapp.com/'
         }
     ])
 
