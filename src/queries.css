@@ -8,8 +8,16 @@
     }
 
     .about-holder {
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: auto;
+    }
+
+    .sneak-hide {
+        display: none;
+    }
+
+    .second-sneak-hide {
+        display: unset;
     }
 
     .me {
@@ -24,6 +32,14 @@
 
     .modal-title {
         text-align: center;
+    }
+
+    .about-div {
+        width: 75%;
+    }
+
+    .about-me {
+        margin-bottom: 30px;
     }
 }
 
@@ -56,6 +72,10 @@
         height: auto;
         width: 90%;
         margin: auto;
+    }
+
+    .about-div {
+        width: 90%;
     }
 }
 
