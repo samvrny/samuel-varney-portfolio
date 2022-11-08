@@ -12,9 +12,6 @@ function Navigation(props) {
         },
         {
             name: 'Contact'
-        },
-        {
-            name: 'Resume'
         }
     ]);
 

@@ -23,6 +23,8 @@ function About() {
                                 <li>Express</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>MySQL, Sequelize</li>
+                                <li>Concurrently</li>
+                                <li>Apollo/GraphQL</li>
                             </ul>
                         </div>
                     </div>

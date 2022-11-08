@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
 import { useState } from 'react';
 
 function App() {
@@ -25,10 +24,8 @@ function App() {
           <About></About>
         ) : otherSelected === 'Portfolio' ? (
           <Project></Project>
-        ) : otherSelected === 'Contact' ? (
-          <Contact></Contact>
         ) : (
-          <Resume></Resume>
+          <Contact></Contact>
         )}
       </main>
       <Footer></Footer>

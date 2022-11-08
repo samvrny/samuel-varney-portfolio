@@ -51,6 +51,7 @@ button:hover {
 }
 
 /* header styles */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -95,6 +96,7 @@ li {
 }
 
 /* about section styles */
+
 .about {
   display: flex;
   justify-content: space-around;
@@ -143,6 +145,31 @@ li {
 .about-title {
   color: #ffffff;
   font-size: 40px;
+}
+
+.resume-holder {
+  padding: 7.5%;
+  background-color: #494949;
+  margin: 7%;
+  border-radius: 5px;
+  align-items: center;
+  border: 4px solid #ff5d73;
+  font-weight: 500;
+}
+
+.resume-lists h3 {
+  font-size: 30px;
+}
+
+.resume-lists ul {
+  list-style-type: none;
+  padding: 0px 0px 25px 0px;
+  font-weight: 600;
+}
+
+.resume-lists h4 {
+  font-size: 23px;
+  color: #ff5d73;
 }
 
 /* portfolio section styles */
@@ -269,7 +296,6 @@ li {
   margin: 10px 0 10px 0
 }
 
-
 .github-icon,
 .linkedin-icon {
   font-size: 70px;
@@ -301,59 +327,6 @@ li {
 .res-link:hover, .email:hover {
   color: #7c7a7a;
 }
-
-/* resume styles */
-
-/* .resume-holder {
-  background: #494949;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: 15px auto 15px auto;
-  border: 4px solid #ff5d73;
-  border-radius: 5px;
-  padding: 15px 0px 25px 0px;
-  color: #ffffff;
-} */
-
-.resume-holder {
-  padding: 7.5%;
-  background-color: #494949;
-  margin: 7%;
-  border-radius: 5px;
-  align-items: center;
-  border: 4px solid #ff5d73;
-  font-weight: 500;
-}
-
-.resume-head {
-  font-size: 40px;
-}
-
-.resume-lists h3 {
-  font-size: 30px;
-}
-
-.resume-lists ul {
-  list-style-type: none;
-  /* margin: 0; */
-  padding: 0px 0px 25px 0px;
-  font-weight: 600;
-}
-
-.resume-lists h4 {
-  font-size: 23px;
-  color: #ff5d73;
-}
-
-/* .res-link, .email {
-  text-decoration: none;
-  color: #ff5d73;
-}
-
-.res-link:hover, .email:hover {
-  color: #7c7a7a;
-} */
 
 /* footer styles */
 

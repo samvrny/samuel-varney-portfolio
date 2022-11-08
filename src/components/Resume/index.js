@@ -1,3 +1,7 @@
+//NOTE: This section is no longer active or able to be rendered by the application. I have 
+//chosen to leave it in the projects files, however, so I can go back and look over it 
+//later if need be. Planning to have deleted soon.
+
 function Resume() {
     const resumepdf = require('../../assets/resume/myresume.pdf')
 
