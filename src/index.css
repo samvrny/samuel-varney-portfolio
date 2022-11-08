@@ -279,6 +279,17 @@ li {
   padding-bottom: 15px;
 }
 
+.res-link, .email {
+  text-decoration: none;
+  color: #ff5d73;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.res-link:hover, .email:hover {
+  color: #7c7a7a;
+}
+
 /* resume styles */
 
 .resume-holder {
@@ -313,14 +324,14 @@ li {
   color: #ff5d73;
 }
 
-.res-link, .email {
+/* .res-link, .email {
   text-decoration: none;
   color: #ff5d73;
 }
 
 .res-link:hover, .email:hover {
   color: #7c7a7a;
-}
+} */
 
 /* footer styles */
 
