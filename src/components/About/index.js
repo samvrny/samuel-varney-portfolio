@@ -14,7 +14,6 @@ function About() {
                                 <li>CSS3</li>
                                 <li>HTML5</li>
                                 <li>React</li>
-                                <li>Bootstrap</li>
                                 <li>Responsive design</li>
                                 <li>Handlebars</li>
                             </ul>
@@ -22,8 +21,6 @@ function About() {
                             <ul>
                                 <li>NodeJS, npm</li>
                                 <li>Express</li>
-                                <li>SQL</li>
-                                <li>NoSQL</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>MySQL, Sequelize</li>
                             </ul>

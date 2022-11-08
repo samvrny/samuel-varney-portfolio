@@ -304,7 +304,7 @@ li {
 
 /* resume styles */
 
-.resume-holder {
+/* .resume-holder {
   background: #494949;
   text-align: center;
   display: flex;
@@ -312,8 +312,18 @@ li {
   margin: 15px auto 15px auto;
   border: 4px solid #ff5d73;
   border-radius: 5px;
-  padding: 15px 10% 25px 10%;
+  padding: 15px 0px 25px 0px;
   color: #ffffff;
+} */
+
+.resume-holder {
+  padding: 7.5%;
+  background-color: #494949;
+  margin: 7%;
+  border-radius: 5px;
+  align-items: center;
+  border: 4px solid #ff5d73;
+  font-weight: 500;
 }
 
 .resume-head {
@@ -326,7 +336,7 @@ li {
 
 .resume-lists ul {
   list-style-type: none;
-  margin: 0;
+  /* margin: 0; */
   padding: 0px 0px 25px 0px;
   font-weight: 600;
 }
