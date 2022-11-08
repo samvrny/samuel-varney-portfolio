@@ -111,7 +111,7 @@ li {
   align-items: center;
   margin: 10px 7% 5% 7%;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .about-div {
@@ -140,6 +140,7 @@ li {
   border: 4px solid #ff5d73;
   font-weight: 500;
   margin-bottom: 40%;
+  line-height: 1.6;
 }
 
 .about-title {
