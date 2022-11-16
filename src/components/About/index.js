@@ -21,6 +21,7 @@ function About() {
                             <ul>
                                 <li>NodeJS, npm</li>
                                 <li>Express</li>
+                                <li>REST APIs</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>MySQL, Sequelize</li>
                                 <li>Concurrently</li>
@@ -31,7 +32,7 @@ function About() {
                 </div>
                 <div className='about-div'>
                     <img className='me second-sneak-hide' src={require('../../assets/samvarney.jpg')}></img>
-                    <p className='about-me'> Hello! My name is Samuel Varney, and I am a fullstack web developer.
+                    <p className='about-me'> Hello! My name is Samuel Varney, and I am a fullstack web developer with an emphasis on front-end development.
                         I recently earned a certificate in full stack web
                         development from the University of Wisconsin through 2U with newly developed skills in JavaScript,
                         HTML, CSS, React, SQL, NoSQL, Node, the MERN stack, and responsive web design.
