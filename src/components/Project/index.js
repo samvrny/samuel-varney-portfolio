@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from '../Modal';
+import loadWebFont from '../../utils/webfont';
 
 function Project() {
     const [projectPhotos] = useState([
@@ -57,13 +58,15 @@ function Project() {
     //sets the original state of the modal to false (it only renders when it is true)
     const [isModalOpen, setIsModalOpen] = useState(false);
 
+    loadWebFont('Press Start 2P')
+
     return (
         <div>
             {/* checks if isModalOpen is true, and if it is, renders the modal */}
             {isModalOpen && <Modal currentProject={currentProject} onClose={showModal}/>}
             <section className='picture-box'>
                 {projectPhotos.map((image, i) => (
-                    <div>
+                    <div className='project'>
                         <h3 className='titles'>{image.name}</h3>
                         <img
                             src={image.picture}
