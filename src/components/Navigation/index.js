@@ -29,7 +29,7 @@ function Navigation(props) {
             <ul>
                 {/* mapping through the navItems array to print each ones name into a list for the navbar */}
                 {navItems.map((category) => (
-                    <li className={`${currentNavItem.name === category.name && 'active'}`} key={category.name}>
+                    <li className={`${currentNavItem.name === category.name && 'active'} pointer`} key={category.name}>
                         {/* adding a click event that sets the current category to whatever list item is clicked */}
                         <span onClick={() => {
                             setCurrentNavItem(category)

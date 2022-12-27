@@ -23,6 +23,8 @@ code {
 main {
   flex: 1;
   background-color: #7c7a7a;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
   display: flex;
 }
 
@@ -186,6 +188,7 @@ li {
   border: 4px solid #494949;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 0px 20px 0 #ffffff, 0 0px 20px 0 #ffffff;
 }
 
 .portfolio-picture:hover {
