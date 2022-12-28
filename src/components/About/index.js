@@ -40,8 +40,8 @@ function About() {
                         because it aligns with my passions and future goals. I love solving puzzles, being mentally stimulated, and learning new things... that
                         coupled with my goal of achieving financial freedom for my family makes me very excited to be entering into a career of web development!
                         I am known as a hard worker with a strong work ethic, and I enjoy picking up new skills and applying to develop and debug web
-                        applications. With each project I hope to not only learn something new but design apps
-                        that are user friendly and have an impactful user experience. I am very excited to leverage skills as part of a quality-driven
+                        applications. With each project I hope to not only learn something new, but design apps
+                        that are user friendly and have an impactful user experience. I am very excited to leverage my skills as part of a quality-driven
                         team to build better experiences on the web!
                     </p>
                 </div>

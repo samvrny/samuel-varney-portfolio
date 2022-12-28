@@ -98,6 +98,10 @@ li {
   margin-top: 7px;
 }
 
+.pointer:hover {
+  text-shadow: #ff5d73 1px 0 10px;
+}
+
 /* about section styles */
 
 .about {
@@ -148,7 +152,8 @@ li {
 
 .about-title {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 45px;
+  text-shadow: #ff5d73 1px 0 10px;
 }
 
 .resume-holder {
@@ -205,6 +210,10 @@ li {
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 0px 20px 0 #ffffff, 0 0px 20px 0 #ffffff;
+}
+
+.portfolio-picture:hover {
+  box-shadow: 0 0px 20px 0 #ff5d73, 0 0px 20px 0 #ff5d73;
 }
 
 .portfolio-picture:hover {
