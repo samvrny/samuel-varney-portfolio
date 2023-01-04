@@ -33,7 +33,7 @@ function About() {
                 <div className='about-div'>
                     <img className='me second-sneak-hide' src={require('../../assets/samvarney.jpg')}></img>
                     <p className='about-me'> Hello! My name is Samuel Varney, and I am a fullstack web developer with an emphasis on front-end development.
-                        For the past 10 years I have worked across a few different industries and through a little trial and error, am happy to have chosen web
+                        For the past 10 years I have worked across different industries and through trial and error, am happy to have chosen web
                         development as a permanent career path because it aligns with my passions and future goals. In November of 2022 I graduated from the
                         University of Wisconsins’ Web Development bootcamp that focuses on Javascript and the MERN stack, and earned a certificate in full stack
                         web development from the UW. During the course of the bootcamp I developed new skills in many technologies including JavaScript ES6+,
