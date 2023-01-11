@@ -16,6 +16,7 @@ function About() {
                                 <li>React</li>
                                 <li>Responsive design</li>
                                 <li>Handlebars</li>
+                                <li>Bootstrap</li>
                             </ul>
                             <h4>Back End proficiencies:</h4>
                             <ul>
