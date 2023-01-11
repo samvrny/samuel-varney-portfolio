@@ -7,7 +7,7 @@ function Project() {
         {
             picture: require('../../assets/projects/sb1.png'),
             name: 'Style Buddy',
-            description: 'This application was built to help someone building a project find different styles for it. The project features the ability to randomly search for different colors, fonts, and stock images one might want to use for a project. My role in developing this project was as the front-end javascript developer and back-end consultant. The application was build using Javascript, CSS, HTML, React, Bcrypt, jwt, Apollo/GraphQL, MongoDb and Mongoose',
+            description: 'This application was built to help someone building a project find different styles for it. The project features the ability to randomly search for different colors, fonts, and stock images one might want to use for a project. My role in developing this project was as the project lead, front-end javascript developer, and back-end consultant. The application was build using Javascript, CSS, HTML, React, Bcrypt, jwt, Apollo/GraphQL, Node, MongoDb, and Mongoose',
             github:'https://github.com/samvrny/style-buddy',
             deployed:'https://protected-chamber-44327.herokuapp.com/'
         },
@@ -38,6 +38,13 @@ function Project() {
             description: 'This is a weather application designed to show you the current weather conditions in the city of your choice. My role in developing this project was as its sole author, and it was built with Javascript, HTML, and CSS.',
             github:'https://github.com/samvrny/simple-weather-app',
             deployed:'https://samvrny.github.io/simple-weather-app/'
+        },
+        {
+            picture: require('../../assets/projects/notetakerss.png'),
+            name: 'Express Notetaker',
+            description: 'A simple note taking application built with an express backend. I was the sole author of this application, and it was build with Javascript, HTML, CSS, Node, and Express.',
+            github: 'https://github.com/samvrny/notetakerapp',
+            deployed: 'https://protected-mesa-86289.herokuapp.com/notes'
         },
         { 
             picture: require('../../assets/projects/homebase.png'),
