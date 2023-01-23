@@ -18,6 +18,13 @@ function Project() {
             github:'https://github.com/samvrny/pennyforyourthoughts',
             deployed:'https://fast-island-88973.herokuapp.com/'
         },
+        // {
+        //     picture: require(),
+        //     name: 'Memory Cards',
+        //     description: 'A Javascript powered game of memory flip-cards. The player choses cards in sets of 2 until all the cards are uncovered from the board. My role in developing this application is as its sole author, and it was build using HTML, CSS, and Javascript.',
+        //     github: '',
+        //     deployed: ''
+        // },
         {   
             picture: require('../../assets/projects/runbuddy.png'),
             name: 'Run Buddy',

@@ -31,7 +31,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className='about-div'>
+                <div className='about-div push-down'>
                     <img className='me second-sneak-hide' src={require('../../assets/samvarney.jpg')}></img>
                     <p className='about-me'> Hello! My name is Samuel Varney, and I am a fullstack web developer with an emphasis on front-end development.
                         For the past 10 years I have worked across different industries and through trial and error, am happy to have chosen web

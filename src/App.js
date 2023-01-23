@@ -5,11 +5,14 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import { useState } from 'react';
+import loadWebFont from './utils/webfont';
 
 function App() {
   
   //category selection setter and getter. sets the current category to 'about' as the default
   const [otherSelected, setOtherSelected] = useState('About')
+
+  loadWebFont('Urbanist')
 
   return (
     <div className="App">

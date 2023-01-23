@@ -12,7 +12,7 @@ function Header(props) {
     loadWebFont('Urbanist')
 
     return (
-        <header>
+        <header className='flex align-center column'>
             <div className='header-creds'>
                 <h1>
                     Samuel Varney

@@ -5,21 +5,13 @@
 }
 
 @media screen and (max-width: 1224px) {
-    header {
-        flex-direction: column;
-    }
-
     header nav {
         width: 75%;
-    }
-
-    header nav ul {
-        padding: 0px;
-    }
+    } 
 
     .header-creds {
         margin-left: 0%;
-    }
+    } 
 
     .about-holder {
         flex-direction: column-reverse;
@@ -32,6 +24,10 @@
 
     .second-sneak-hide {
         display: unset;
+    }
+
+    .about-me {
+        margin-top: 7%;
     }
 
     .me {
