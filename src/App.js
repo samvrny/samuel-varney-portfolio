@@ -8,7 +8,7 @@ import { useState } from 'react';
 import loadWebFont from './utils/webfont';
 
 function App() {
-  
+
   //category selection setter and getter. sets the current category to 'about' as the default
   const [otherSelected, setOtherSelected] = useState('About')
 
@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header 
+      <Header
         // passing the category selection getter and setter into the header
-        otherSelected={ otherSelected }
-        setOtherSelected={ setOtherSelected }
+        otherSelected={otherSelected}
+        setOtherSelected={setOtherSelected}
       ></Header>
       <main>
         {/* conditionally rendering the pages based on the navigation selection */}

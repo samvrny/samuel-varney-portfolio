@@ -1,4 +1,8 @@
+import { useState } from 'react';
+import Project from '../Project';
+
 function About() {
+
     return (
         <section className='about'>
             <h3 className='about-title'>About Me...</h3>
