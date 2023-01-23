@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/samuel-varney-portfolio/static/css/main.a11f9907.css",
-    "main.js": "/samuel-varney-portfolio/static/js/main.2da240b6.js",
+    "main.css": "/samuel-varney-portfolio/static/css/main.e7de563c.css",
+    "main.js": "/samuel-varney-portfolio/static/js/main.39ece352.js",
     "static/js/787.971da97d.chunk.js": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js",
     "static/media/samvarney.jpg": "/samuel-varney-portfolio/static/media/samvarney.f8fe87c93a58932b70f0.jpg",
+    "static/media/memory-game.png": "/samuel-varney-portfolio/static/media/memory-game.e30f59272452379e791e.png",
     "static/media/runbuddy.png": "/samuel-varney-portfolio/static/media/runbuddy.a24028d1cb5afc1af23a.png",
     "static/media/background.jpg": "/samuel-varney-portfolio/static/media/background.9d68b3a1c55ea1544cad.jpg",
     "static/media/weatherapp.png": "/samuel-varney-portfolio/static/media/weatherapp.c5f4f8d93337b1a8f768.png",
@@ -14,12 +15,12 @@
     "static/media/homebase.png": "/samuel-varney-portfolio/static/media/homebase.5995fae7ab3ad2a6f421.png",
     "static/media/notetakerss.png": "/samuel-varney-portfolio/static/media/notetakerss.9d5ab4794a2992926b4a.png",
     "index.html": "/samuel-varney-portfolio/index.html",
-    "main.a11f9907.css.map": "/samuel-varney-portfolio/static/css/main.a11f9907.css.map",
-    "main.2da240b6.js.map": "/samuel-varney-portfolio/static/js/main.2da240b6.js.map",
+    "main.e7de563c.css.map": "/samuel-varney-portfolio/static/css/main.e7de563c.css.map",
+    "main.39ece352.js.map": "/samuel-varney-portfolio/static/js/main.39ece352.js.map",
     "787.971da97d.chunk.js.map": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a11f9907.css",
-    "static/js/main.2da240b6.js"
+    "static/css/main.e7de563c.css",
+    "static/js/main.39ece352.js"
   ]
 }
