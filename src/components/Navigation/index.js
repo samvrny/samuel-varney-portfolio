@@ -1,4 +1,5 @@
 import { useState } from "react"
+import loadWebFont from "../../utils/webfont";
 
 function Navigation(props) {
 
@@ -23,6 +24,8 @@ function Navigation(props) {
 
     //setting the current navigation item to About as default
     const [currentNavItem, setCurrentNavItem] = useState(navItems[0])
+
+    loadWebFont('Urbanist')
 
     return(
         <nav>

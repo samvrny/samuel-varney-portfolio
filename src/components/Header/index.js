@@ -1,3 +1,4 @@
+import loadWebFont from "../../utils/webfont";
 import Navigation from "../Navigation";
 
 function Header(props) {
@@ -7,6 +8,8 @@ function Header(props) {
         setOtherSelected,
         otherSelected,
     } = props
+
+    loadWebFont('Urbanist')
 
     return (
         <header>
