@@ -7,7 +7,7 @@ function About() {
                     <img className='me sneak-hide' src={require('../../assets/samvarney.jpg')}></img>
                     <div className='resume-holder'>
                         <div className='resume-lists'>
-                            <h3>My proficiencies:</h3>
+                            <h3>Proficiencies:</h3>
                             <h4>Front End proficiencies:</h4>
                             <ul>
                                 <li>Javascript ES6+</li>

@@ -1,7 +1,7 @@
 # Samuel Varney Coding Portfolio
 
 ## Description
-This application is a portfolio written to showcase my skill as a developer. This portfolio is a react application because I really enjoy working with react!
+This application is a portfolio written to showcase my skill as a developer.
 
 ## Application
 You can visit the deployed portfolio application here: [My Portfolio](https://samvrny.github.io/samuel-varney-portfolio/)
