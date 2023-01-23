@@ -65,23 +65,23 @@ function Project() {
     //sets the original state of the modal to false (it only renders when it is true)
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    loadWebFont('Press Start 2P')
+    loadWebFont('Urbanist')
 
     return (
         <div>
             {/* checks if isModalOpen is true, and if it is, renders the modal */}
             {isModalOpen && <Modal currentProject={currentProject} onClose={showModal}/>}
-            <section className='picture-box'>
+            <section className='picture-box flex wrap justify-center align-center text-center'>
                 {projectPhotos.map((image, i) => (
-                    <div className='project'>
+                    <div className='project flex column align-center justify-center'>
                         <h3 className='titles'>{image.name}</h3>
                         <img
                             src={image.picture}
                             alt={image.name}
                             className='portfolio-picture'
                             key={image.name}
-                            onClick={() => showModal(image, i)}
                         />
+                        <button className='details-button' onClick={() => showModal(image, i)}>Details</button>
                     </div>
                 ))}
             </section>
