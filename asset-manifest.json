@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samuel-varney-portfolio/static/css/main.e7de563c.css",
-    "main.js": "/samuel-varney-portfolio/static/js/main.39ece352.js",
+    "main.js": "/samuel-varney-portfolio/static/js/main.9f60b2fd.js",
     "static/js/787.971da97d.chunk.js": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js",
     "static/media/samvarney.jpg": "/samuel-varney-portfolio/static/media/samvarney.f8fe87c93a58932b70f0.jpg",
     "static/media/memory-game.png": "/samuel-varney-portfolio/static/media/memory-game.e30f59272452379e791e.png",
@@ -10,17 +10,17 @@
     "static/media/weatherapp.png": "/samuel-varney-portfolio/static/media/weatherapp.c5f4f8d93337b1a8f768.png",
     "static/media/Penny1.png": "/samuel-varney-portfolio/static/media/Penny1.1222653a8d1cd4f83b75.png",
     "static/media/sb1.png": "/samuel-varney-portfolio/static/media/sb1.98c10ec2dd1ae42d3781.png",
-    "static/media/myresume.pdf": "/samuel-varney-portfolio/static/media/myresume.a39aad710b38b4deaa0d.pdf",
+    "static/media/myresume.pdf": "/samuel-varney-portfolio/static/media/myresume.2937a033fad6f34d1858.pdf",
     "static/media/generator1.png": "/samuel-varney-portfolio/static/media/generator1.617115841626e2911c10.png",
     "static/media/homebase.png": "/samuel-varney-portfolio/static/media/homebase.5995fae7ab3ad2a6f421.png",
     "static/media/notetakerss.png": "/samuel-varney-portfolio/static/media/notetakerss.9d5ab4794a2992926b4a.png",
     "index.html": "/samuel-varney-portfolio/index.html",
     "main.e7de563c.css.map": "/samuel-varney-portfolio/static/css/main.e7de563c.css.map",
-    "main.39ece352.js.map": "/samuel-varney-portfolio/static/js/main.39ece352.js.map",
+    "main.9f60b2fd.js.map": "/samuel-varney-portfolio/static/js/main.9f60b2fd.js.map",
     "787.971da97d.chunk.js.map": "/samuel-varney-portfolio/static/js/787.971da97d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7de563c.css",
-    "static/js/main.39ece352.js"
+    "static/js/main.9f60b2fd.js"
   ]
 }
