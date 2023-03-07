@@ -24,13 +24,13 @@ function About() {
                             </ul>
                             <h4>Back End proficiencies:</h4>
                             <ul>
-                                <li>NodeJS, npm</li>
+                                <li>NodeJS</li>
+                                <li>npm</li>
                                 <li>Express</li>
                                 <li>REST APIs</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>MySQL, Sequelize</li>
                                 <li>Concurrently</li>
-                                <li>Apollo/GraphQL</li>
                             </ul>
                         </div>
                     </div>
