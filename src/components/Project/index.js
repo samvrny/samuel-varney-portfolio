@@ -19,6 +19,13 @@ function Project() {
             deployed:'https://fast-island-88973.herokuapp.com/'
         },
         {
+            picture: require('../../assets/projects/quotegenerator.png'),
+            name: 'Random Quote Generator',
+            description: 'A random quote generator that lets a user generate a random quote from a quote API with a button click. The user can also post the selected quote to Twitter with a button click. This project was developed by me as the sole author, and is built with HTML, CSS, Javascript, and a quote API from Jacinto Design.',
+            github: 'https://github.com/samvrny/quotegenerator',
+            deployed: 'https://samvrny.github.io/quotegenerator/'
+        },
+        {
             picture: require('../../assets/projects/memory-game.png'),
             name: 'Memory Cards',
             description: 'A Javascript powered game of memory flip-cards. The player choses cards in sets of 2 until all the cards are uncovered from the board. My role in developing this application is as its sole author, and it was build using HTML, CSS, and Javascript.',
@@ -52,13 +59,6 @@ function Project() {
             description: 'A simple note taking application built with an express backend. I was the sole author of this application, and it was build with Javascript, HTML, CSS, Node, and Express.',
             github: 'https://github.com/samvrny/notetakerapp',
             deployed: 'https://protected-mesa-86289.herokuapp.com/notes'
-        },
-        { 
-            picture: require('../../assets/projects/homebase.png'),
-            name: 'Homebase App',
-            description: 'An application designed for housemates to be able to keep track of bills, chores, and other household tasks. My role in this project was as the back-end developer and assistance with front-end Javascript. This application was built using Javascript, MySQL, Sequelize, Node, Express, Bootstrap, Handlebars, and CSS.',
-            github:'https://github.com/AlexCourtney18/homebase',
-            deployed:'https://enigmatic-bastion-69025.herokuapp.com/'
         }
     ])
 
