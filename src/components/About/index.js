@@ -18,9 +18,11 @@ function About() {
                                 <li>CSS3</li>
                                 <li>HTML5</li>
                                 <li>React</li>
-                                <li>Responsive design</li>
-                                <li>Handlebars</li>
                                 <li>Bootstrap</li>
+                                <li>Vue</li>
+                                <li>Responsive design</li>
+                                <li>Tailwind</li>
+                                <li>Pinia</li>
                             </ul>
                             <h4>Back End proficiencies:</h4>
                             <ul>
@@ -30,23 +32,14 @@ function About() {
                                 <li>REST APIs</li>
                                 <li>MongoDB, Mongoose</li>
                                 <li>MySQL, Sequelize</li>
-                                <li>Concurrently</li>
+                                <li>SQL</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className='about-div push-down'>
                     <img className='me second-sneak-hide' src={require('../../assets/samvarney.jpg')}></img>
-                    <p className='about-me'> Hello! My name is Samuel Varney, and I am a fullstack web developer with an emphasis on front-end development.
-                        For the past 10 years I have worked across different industries and through trial and error, am happy to have chosen web
-                        development as a permanent career path because it aligns with my passions and future goals. In November of 2022 I graduated from the
-                        University of Wisconsins’ Web Development bootcamp that focuses on Javascript and the MERN stack, and earned a certificate in full stack
-                        web development from the UW. During the course of the bootcamp I developed new skills in many technologies including JavaScript ES6+,
-                        HTML, CSS, React, SQL, NoSQL, Node, the MERN stack, and responsive web design. I love solving puzzles, being creative, and learning new
-                        things. I am known as a hard worker with a strong work ethic, and I enjoy picking up new coding skills and applying to develop and debug
-                        web applications. Each project I work on I take as an opportunity not only to learn something new, but design apps that are interesting,
-                        user friendly and have an impactful user experience. I am very excited to leverage my skills as part of a quality-driven team to build better
-                        experiences on the web!
+                    <p className='about-me'> Hello! I'm Sam, a fullstack web developer, customer service professional, and skilled laborer. For the past 10 years I have spent my time mostly in the agricultural, landscaping, and service industries, including personally planning and successfully operating a profitable agricultural business venture. Looking for a permanent career change and to learn something new, in 2022 I attended the University of Wisconsin's’ Web Development bootcamp and earned a certificate in full stack web development in November of that year. During the course of the bootcamp I developed new skills in many technologies including JavaScript ES6+, HTML, CSS, React, SQL, NoSQL, Node, the MERN stack, responsive web design, and also honed in my business computer skills. I became proficient in Google Workspace, Zoom, Slack, typing, Microsoft Office, and have gotten some exposure to data entry. I am currently using my business, web development, and customer service skills working as a freelance landscape architect, general laborer, and freelance web developer while I search for a permanent role in IT. I am also working on my goal of having at least one Salesforce certification by the end of the year and taking classes through the Zero To Mastery digital coding academy where I am teaching myself Vue, and expanding my web development abilities. I am excited to learn as many new technologies and skills as I can! I love solving puzzles, being creative, and learning new things. Everything I work on I take as an opportunity to learn something new. I am looking forward to starting my career in technology in the coming year! Nice to meet you.
                     </p>
                 </div>
             </div>

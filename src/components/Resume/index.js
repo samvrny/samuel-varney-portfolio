@@ -21,15 +21,17 @@ function Resume() {
                         <li>HTML5</li>
                         <li>React</li>
                         <li>Bootstrap</li>
+                        <li>Vue</li>
                         <li>Responsive design</li>
-                        <li>Handlebars</li>
+                        <li>Tailwind</li>
+                        <li>Pinia</li>
                     </ul>
                     <h4>Back End proficiencies:</h4>
                     <ul>
-                        <li>NodeJS, npm</li>
+                        <li>NodeJS</li>
+                        <li>npm</li>
                         <li>Express</li>
                         <li>SQL</li>
-                        <li>NoSQL</li>
                         <li>MongoDB, Mongoose</li>
                         <li>MySQL, Sequelize</li>
                     </ul>
